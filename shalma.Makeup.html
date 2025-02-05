@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalma Makeup - premium makeup artist</title>
+    <link rel="stylesheet" href="./project.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./logo_nails.jpg" alt="Shalma Makeup Logo">
+        </div>
+        <h1>SHALMA MAKEUP</h1>
+    </header>
+
+    <nav>
+        <a href="#home" onclick="showSection('home')">Home</a>
+        <a href="#pricelist" onclick="showSection('pricelist')">Pricelist</a>
+        <a href="#contact" onclick="showSection('contact')">Contact</a>
+    </nav>
+
+    <section id="home" class="section active">
+        <h2>Welcome to SHALMA MAKEUP</h2>
+        <p>MUA TAMBUN (konser,wisuda,dll) tambun-jkt
+            Kecantikan, Kosmetik & Perawatan Diri
+            💄Freelance Make Up Artist
+            🏅Certified MUA @juleetopper @mirfanymaiden
+            Best Make Up @somethincofficial
+            owner by @dhania.shalma
+        </p>
+            <p> 
+            
+            </p>
+        <p>Shalma Makeup – Wujudkan Pesona Terbaikmu ✨
+            Kami menyediakan layanan makeup profesional untuk berbagai momen spesial, mulai dari wisuda, lamaran, hingga pernikahan. Dengan sentuhan ahli dan produk berkualitas, kami memastikan setiap riasan tahan lama dan memancarkan kecantikan alami.
+            
+            💄 Wisuda | Lamaran | Pesta | Prewedding | Pernikahan
+            📍 Tambun, Kab Bekasi                        
+            Siap tampil menawan? Percayakan riasanmu pada Shalma Makeup! 💕</p>
+        <div class="gallery">
+            <!-- Tambahkan 6 gambar nails -->
+            <div class="gallery-item">
+                <img src="./design1.jpg" alt="Design 1">
+            </div>
+            <div class="gallery-item">
+                <img src="./design2.jpg" alt="Design 2">
+            </div>
+            <div class="gallery-item">
+                <img src="./design3.jpg" alt="Design 3">
+            </div>
+            <div class="gallery-item">
+                <img src="./design4.jpg" alt="Design 4">
+            </div>
+        </div>
+    </section>
+
+    <section id="pricelist" class="section">
+        <h2>My Price-list</h2>
+        <p>kami menyediakan berbagai macam price-list dari mulai regular hingga paket akad yang berkualitas dan memiliki harga yang terjangkau. </p>
+        <div class="price-grid">
+            <div class="price-item">
+                <div class="price-image">
+                    <img src="./price_1.jpeg" alt="Basic Design" style="cursor: pointer">
+                </div>
+                <h3>Regullar and Gold</h3>
+                <p>Start from IDR 150.000 - 1.000.000</p>
+                <p class="price-desc">Regullar and Gold makeup </p>
+            </div>    
+            <div class="price-item">
+                <div class="price-image">
+                    <img src="./price_2jpeg.jpeg" alt="Premium Design"  style="cursor: pointer">
+                </div>
+                <h3>Paket 1 and paket 2</h3>
+                <p>Start from IDR 1.500.000</p>
+                <p class="price-desc">Paket Akad Lengkap</p>
+            </div>
+            <div class="price-item">
+                <div class="price-image">
+                    <img src="./price_3.jpeg" alt="Luxury Design"  style="cursor: pointer">
+                </div>
+                <h3>Paket lamaran</h3>
+                <p>Start from IDR 1.300.000</p>
+                <p class="price-desc">Paket Lamaran Lengkap</p>
+            </div>
+            <div id="imageModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="expandedImg">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>silahkan langsung hubungi kami dengan klik link di bawah ini 👇</p>
+        <div class="contact-container">
+            <div class="contact-item">
+                <a href="https://www.instagram.com/shalma.makeup/?hl=en" target="_blank">
+                    <img src="./instagram-icon.png" alt="Instagram" class="instagram-icon">
+                    @shalma.makeup
+                </a>
+            </div>
+            <div class="contact-item">
+                <button id="waButton">
+                    <img src="./wa-icon.png" alt="WhatsApp" class="wa-icon">
+                    Order via WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
